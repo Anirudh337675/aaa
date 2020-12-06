@@ -36,6 +36,8 @@ function setup(){
 
     bird = new Bird(100,100);
 
+    g1= new Ground(150,100,100,100)
+
 }
 
 function draw(){
@@ -58,6 +60,8 @@ function draw(){
     box5.display();
     log4.display();
     log5.display();
+
+    g1.display();
 
     bird.display();
     platform.display();
